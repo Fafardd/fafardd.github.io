@@ -87,4 +87,9 @@ h4{
 .mesLogos{
     width: 20px;
     margin-bottom: 3px;
+    display:none;
+}
+
+i{
+    display:none!important;
 }
