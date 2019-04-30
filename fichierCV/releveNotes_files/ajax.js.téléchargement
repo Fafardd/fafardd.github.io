@@ -1,0 +1,63 @@
+function LibWeb_AjaxRequest(TimeOut) {
+  var XmlHttp;
+  var Complete = false;
+
+  try { XmlHttp = new ActiveXObject("MSXML2.XMLHTTP"); }
+  catch (e) { try { XmlHttp = new ActiveXObject("Microsoft.XMLHTTP"); }
+  catch (e) { try { XmlHttp = new XMLHttpRequest(); }
+  catch (e) { XmlHttp = false; }}}
+
+  if (!XmlHttp) 
+     return null;
+
+  this.Send = function(Method, Url, Parameters, fnSuccess, fnError, fnTimeOut) {
+    if (!XmlHttp) 
+       return false;
+
+    Method = Method.toUpperCase();
+    try {      
+      if (Method == "GET") {
+        Parameters = "?" + Parameters;
+        if (Parameters != '')
+           Parameters = Parameters + "&";
+
+        Parameters = Parameters + "_ts=" + new Date().getTime();
+
+        XmlHttp.open(Method, Url + Parameters, true);
+        Parameters = "";
+      }
+      else {
+        XmlHttp.open(Method, Url, true);
+        XmlHttp.setRequestHeader("Method", "POST " + Url + " HTTP/1.1");
+        XmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      }
+
+      XmlHttp.onreadystatechange = function() {
+         if ((XmlHttp.readyState == 4 || XmlHttp.readyState=="complete") && !Complete) {
+            
+            clearTimeout(XmlHttpRequestTimer); 
+           
+            Complete = true;
+
+            if (XmlHttp.status == 200) 
+                fnSuccess(XmlHttp.responseText);            
+            else 
+                fnError(XmlHttp.responseText);
+         }
+      }     
+
+      XmlHttp.send(Parameters);
+
+      var XmlHttpRequestTimer = 
+         setTimeout(function() { Complete = true; XmlHttp.abort(); fnTimeOut(); }, TimeOut * 1000);
+
+    }
+    catch(e) { 
+      return false; 
+    }
+
+    return true;
+  }
+
+  return this;
+}

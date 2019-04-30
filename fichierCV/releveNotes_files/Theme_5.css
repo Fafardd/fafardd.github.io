@@ -1,0 +1,1164 @@
+
+.TexteMobile {font: 12px Verdana; color:black;}
+.TexteMobileGras {font: Bold 12px Verdana; color:black;}
+.TexteMobileGrasBlanc {font: Bold 12px Verdana; color:white;}
+.LienMobile {font: Bold 12px Verdana; color:black; text-decoration: none;}
+
+.CoulBack_Vert  { background-color: #E6F9E5}
+.CoulBack_Bleu  { background-color: #D6E6FF}
+.CoulBack_Rose  { background-color: #FBE0E7}
+.CoulBack_Mauve { background-color: #DFDBFE}
+.CoulBack_Jaune { background-color: #FBFAD1}
+.CoulBack_Blanc { background-color: #FFFFFF}
+.CoulBack_Fonce { background-color: #F1F3F4}
+.CoulBack_Pale  { background-color: #FFFFFF}
+
+.CalBorderColor  { background-color: #BECBD3} 
+.CalHeader       { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000; background-color: #CDDAE2}
+.CalColHeader    { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: bold; color: #000000; background-color: #eef2f5}
+.CalCell         { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; background-color: #FFFFFF; width=14pc} 
+.CalEmptyCell    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; background-color: #eef2f5; width=14pc} 
+.CalDateCell     { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; background-color: #008080; width=14pc; color: #FFFFFF} 
+.CalWeekend      { background-color: #F3F7FA; font-weight: bold; color: #000000; font-size: 8pt;}
+
+.HorBorderColor  { background-color: #9fb4bf} 
+.HorHeader       { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #FFFFFF; background-color: #f8f8f8;  background-repeat: repeat;}                 
+.HorColHeader    { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: bold; color: #000000; background-color: #f8f8f8; background-repeat: repeat;}
+
+.HorCell         { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; background-color: #FFFFCC; width=13pc} 
+.HorCellEven     { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; background-color: #f8f8f8; width=13pc} 
+.HorCellOdd      { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; background-color: #FFFFFF; width=13pc} 
+.HorCellVide     { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; background-color: #FFFFFF; width=13pc}
+.HorHeaderMobile    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #FFFFFF; background-color: #529E4A; background-image:url('../images/Mobile_HoraireArPlan.png'); background-repeat: repeat;}                 
+.HorColHeaderMobile { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10pt; font-weight: bold; color: #000000; background-color: #EEF0FB; background-image:url('../images/Mobile_HoraireArPlan.png'); background-repeat: repeat;}
+.HorCellMobile      { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #FFFFCC; width=13pc} 
+.HorCellEvenMobile  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #EBEEF0; width=13pc} 
+.HorCellOddMobile   { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #FFFFFF; width=13pc} 
+
+.GridBorderColor  { background-color: #e8eaf1} 
+.GridHeader       { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000; background-color: #f8f8f8; background-repeat: repeat;}
+.GridColHeader    { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: bold; color: #000000; background-color: #f8f8f8;}
+.GridEvenRow      { background-color: #f8f8f8} 
+.GridOddRow       { background-color: #FFFFFF}
+
+.AgeBorderColor  { background-color: #BECBD3} 
+.AgeCell         { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; background-color: #FFFFFF;}  
+.AgeHeader       { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000;  background-repeat: repeat;} 
+.AgeColHeader    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #000000; background-color: #f8f8f8}
+.AgeEmptyCell    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; background-color: #f8f8f8} 
+.AgeWeekend      { font-weight: bold; color: #000000; font-size: 8pt; background-color: #f8f8f8;}
+.AgeWeekendDateCell  { background-color: #f8f8f8; font-weight: bold; color: #000000; font-size: 8pt; border:1px solid #608196}
+.AgeDateCell     { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; background-color: #FFFFFF; border:1px solid #608196} 
+
+.AgeItemJourEntier   { background-color: #E6F9E5; color: #000000; font-size: 8pt;}
+.AgeItemSansConf     { border-style:none; background-color: #FFFFFF; color: #000000; font-size: 8pt;}
+.AgeItemEnConf	     { border-width: 0px 0px 0px 5px;border-style: solid;border-color: #DFE2F6 #DFE2F6 #DFE2F6 #CC0000;background-color: #FBE0E7; color: #000000; font-size: 8pt;}
+.AgeItemSansConfMois { border-width: 0px 0px 0px 0px;border-style: solid;border-color: #DFE2F6 #DFE2F6 #DFE2F6 #00CC00;background-color: #FFFFFF; color: #000000; font-size: 8pt;}
+.AgeItemEnConfMois   { border-width: 0px 0px 0px 3px;border-style: solid;border-color: #FD7676 #FD7676 #FD7676 #CC0000;background-color: #FBE0E7; color: #000000; font-size: 8pt;}
+
+.LienTree { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #312973}
+.LienTree:hover { color: #312973}
+
+.LienTreeBold { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #312973}
+.LienTreeBold:hover { color: #312973}
+
+.Lien { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000}
+.Lien:hover { color: #000000}
+
+.LienGrand { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000000}
+.LienGrand:hover { color: #000000}
+
+.LienBold { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000000}
+.LienBold:hover { color: #312973}
+
+.LienNoir { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000}
+.LienNoir:hover { color: #000000}
+
+.LienNoirBold { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000000}
+.LienNoirBold:hover { color: #000000}
+
+.LienRouge { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: red}
+.LienRouge:hover { color: red}
+
+.LienRougeBold { text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: red}
+.LienRougeBold:hover { color: red}
+
+.BoiteErreur {border:1px solid #FD7676;	padding:8px; background:#FEFEDF; color:#FB6060;}
+
+.stdbody
+{
+	background-color:#f5f5f5;    /* Arrière plan de tout le portail */
+}	
+
+.logbody	/* Arrier plan de la page de connexion */				
+{
+	margin:0px;
+	background: linear-gradient(107deg, #eaeaea 0%, #f3f3f3 16%, #e8e8e8 16%, #dfdfdf 100%); 
+	background-color: #e8e8e8;
+}	
+
+.popbody
+{
+	margin: 10px;
+}	
+
+.spebody
+{
+	margin: 10px;
+}	
+
+body
+{
+	text-align:center;
+	margin:0px;
+	margin-left: 6px;  
+	margin-right: 6px;   
+        margin-bottom: 2px;  
+	background-color:#ffffff;
+	font: 10px Verdana;
+	color:#231F20; 			/* NON UTILISÉ  */
+}
+
+
+a img
+{
+	border-style:none;
+	border-width:0px;
+}
+
+a.morelink 
+{
+    text-decoration:none;
+    outline: none;
+}
+
+.morecontent span 
+{
+    display: none;
+}
+
+.comment 
+{
+    width: 500px;
+    margin: 0px;
+}
+
+h1
+{
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	display:block;
+}
+
+h2
+{
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	display:block;
+}
+
+h3
+{
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	display:block;
+}
+
+h4
+{
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	display:block;
+}
+
+h5
+{
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	display:block;
+}
+
+form
+{
+	margin:0px;
+	padding:0px;
+}
+
+p
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+textarea
+{
+	font: 10px Verdana;
+	font-weight: normal;
+}
+
+span.BlueTexteRouge
+{
+	color: #991F23;
+}
+
+.BlueHeader	/* Arriere plan de l'entete avec logo et ligne de couleur */
+{
+	height:43px;
+	border-width: 0px 0px 1px 0px;border-style: solid;border-color: #000000 #000000 #e5e7e8 #000000;
+	background-position: top;
+	background-color:#ffffff;
+	color: #000000;
+	font: 10px Verdana;
+	font-weight: normal;
+	margin-bottom: 9px;
+	margin-left: 0px;
+}
+
+.BlueHeader h2			/* Entete - Nom de l'élève */
+{
+	font: 13px Verdana;
+	margin-right: 4px;
+	margin-top: 2px;
+}
+
+.BlueHeader p			/* Entete - Date du jour */
+{
+	margin-top: 2px;
+	margin-right: 4px;	
+	float:right;
+	display: inline;
+}
+
+.BlueHeader img			/* Entete - Bouton déconnecter */
+{
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.BlueHeader table.BlueXButton
+{
+	float:right;
+	display:inline;
+	margin-right:5px;
+	margin-left:2px;
+}
+
+
+/* =========================================================================================== */
+/*                                 Menu de gauche 					       */	
+/* =========================================================================================== */
+
+.BlueMenu				/* Section global des menus */
+{
+	font: 11px Verdana;
+					/*	line-height:16px;  */
+	margin-left:0px;
+	margin-bottom:8px;
+	padding-bottom:0px;
+	min-width:150px;
+}
+
+.BlueMenu b
+{
+	display:block;
+	font-weight: bold;
+	margin-left:11px;	
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+
+
+.BlueMenu td.Tab			/* Menu de gauche entête */
+{
+	height: 23px;			
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #6b8983 #6b8983 #9ecac0 #6b8983; 
+	background-color: #84ac98;
+}
+
+
+.BlueMenu h3				/* Menu de gauche entête police */
+{
+	margin:0px;
+	padding-left:10px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.BlueMenu table.Tab
+{
+	background-color:#f5f5f5;       /*  Menu de gauche - ligne entre entête et contenu */
+	padding-bottom: 0px;  /* 2px */
+}
+
+
+.BlueMenu a				/* Menu de gauche contenu */
+{
+	display:block;
+	font-weight: normal;
+	margin-left:8px;
+	margin-right:8px;	
+	padding-top:0px;
+	padding-bottom:0px;
+	color: #ffffff;
+	text-decoration: none;
+	width=100%;
+}
+
+.BlueMenu .Content			/*  Menu de gauche - contenu : contour de tout sauf le bas */
+{
+	background-color: #475e59;	
+        font: 11px Verdana;
+	font-weight: normal;
+	line-height:18px;
+/*IE8   line-height:12px; IE8*/
+	border-width: 0px 2px 2px 2px;border-style: solid;border-color: 475e59 475e59 475e59 475e59;
+	padding-bottom:6px;			/* ==========   enlever le pied de page    ========= */
+
+}
+
+.BlueMenu .Item				/* Menu de gauche - contenu : arrière plan */
+{
+	background-color: #475e59;
+}
+
+.BlueMenu .Footer			/* Menu de gauche - contenu : pied de page */
+{
+	background-color: #475e59;
+	padding-bottom:5px;
+}
+
+.BlueMenu a:hover
+{
+	color: #ffffff;
+	text-decoration: underline;
+	width=100%;
+}
+
+
+
+/* =========================================================================================== */
+/*                                 Panneau	 					       */	
+/* =========================================================================================== */
+
+
+.BluePanel			/* Grand et Petit panneau */
+{
+	padding-bottom: 6px;
+	display:block;
+	border-width: 0px 1px 1px 1px;border-style: solid;border-color: #000000 #c6ced0 #c6ced0 #c6ced0;
+	background-color:#FFFFFF;
+}
+
+.BluePanel table.Tab		/* regroupement de petit Panneau */
+{
+}
+
+
+.BluePanel td.Tab		/* Panneau entete */
+{
+	height: 23px;
+	background-color: #7b9892;
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #55726c #55726c #55726c #55726c; 
+}
+
+.BluePanel .entete
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	letter-spacing:1px; 
+	color: #ffffff;
+	text-transform: uppercase; 
+}
+
+.BluePanel h4
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	letter-spacing:1px; 
+	color: #ffffff;
+}
+
+.BluePanel  table.Content
+{
+	width:100%;
+}
+
+.BluePanel  td.Content
+{
+	font: 11px Verdana;
+}
+
+.BluePanel  table
+{
+	font: 11px Verdana;
+}
+
+.BluePanel  td.Content p
+{
+	font: 10px Verdana;
+	margin-left:2px; 
+	margin-right:2px; 
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.BluePanel  table.Footer
+{
+}
+
+.BluePanel .BorderLeft		/* Bordure gauche du panneau */
+{
+}
+
+.BluePanel .BorderRight		/* Bordure droite du panneau */
+{
+}
+
+.BluePanel .BorderBottom	/* Bordure bas du panneau */
+{
+}
+
+
+
+/* =========================================================================================== */
+/*                                 Panneau IMPRESSION 					       */	
+/* =========================================================================================== */
+
+
+.BluePanelImp			/* Grand et Petit panneau */
+{
+	padding-bottom: 6px;
+	display:block;
+	border-width: 0px 0px 0px 0px;border-style: solid;border-color: #000000 #c6ced0 #c6ced0 #c6ced0;
+	background-color:#FFFFFF;
+}
+
+.BluePanelImp table.Tab		/* regroupement de petit Panneau */
+{
+}
+
+
+.BluePanelImp td.Tab		/* Panneau entete */
+{
+	height: 23px;
+	background-color: #7b9892;
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #55726c #55726c #55726c #55726c; 
+}
+
+.BluePanelImp h3
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	letter-spacing:1px; 
+	color: #000000;
+	text-transform: uppercase; 
+}
+
+.BluePanelImp h4
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	letter-spacing:1px; 
+	color: #000000;
+}
+
+.BluePanelImp  table.Content
+{
+	width:100%;
+}
+
+.BluePanelImp  td.Content
+{
+	font: 11px Verdana;
+}
+
+.BluePanelImp  table
+{
+	font: 11px Verdana;
+}
+
+.BluePanelImp  td.Content p
+{
+	font: 10px Verdana;
+	margin-left:2px; 
+	margin-right:2px; 
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.BluePanelImp  table.Footer
+{
+}
+
+.BluePanelImp .BorderLeft		/* Bordure gauche du panneau */
+{
+}
+
+.BluePanelImp .BorderRight		/* Bordure droite du panneau */
+{
+}
+
+.BluePanelImp .BorderBottom	/* Bordure bas du panneau */
+{
+}
+
+
+/* =========================================================================================== */
+/*                                 Panneau simple ( Frame )				       */	
+/* =========================================================================================== */
+
+.BluePanelSimple 
+{
+	border:1px solid #d1d6d9;   /* Contour de tout le panneau */ 
+	margin:2px;
+	padding-bottom:4px;
+}
+
+.BluePanelSimple td.Tab		/*  Entete du panneau simple   */
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	letter-spacing:1px; 
+	padding-left:8px;
+	width=100%;
+	background-color: #e6ecec;
+	border-width: 0px 0px 1px 0px;border-style: solid;border-color: #000000 #000000 #d1d6d9 #000000; 
+	color: #000000;     			
+}
+.BluePanelSimple tr.Content	/*  Contenu du panneau simple   */
+{
+	background-color:#FFFFFF;
+	padding:4px;
+}
+
+.BluePanelSimple h4
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	font: 12px Verdana;
+	font-weight: 600;
+	letter-spacing:1px; 
+	color: #000000;
+}
+
+
+.NameInfo
+{
+	display:block;
+	font: 12px Verdana;
+	color: 231F20;
+	font-weight: normal;
+}
+
+.MesCours
+{
+	font: 10px Verdana;
+	font-weight: normal;
+	background-color:#FFFFFF;
+}
+
+.MesCours td
+{
+	font: 10px Verdana;
+	font-weight: normal;
+}
+
+.MesCours p
+{
+	font: 10px Verdana;
+	font-weight: normal;
+	color: #991F23;
+	margin-left:11px;
+	margin-top:6px;
+	line-height:11px;
+}
+
+.Panel
+{
+	font: 10px Verdana;
+	font-weight: normal;
+	background-color:#FFFFFF;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.Panel td
+{
+	font: 10px Verdana;
+	font-weight: normal;
+}
+
+/* =========================================================================================== */
+/*                                       Capsule	 				       */	
+/* =========================================================================================== */
+
+
+.BlueCapsule
+{
+	
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #d3d9db #d3d9db #d3d9db #d3d9db;
+	min-width:200px;
+	background-color:#ffffff;
+}
+
+.BlueCapsule .Content
+{
+	padding:1px;
+	font: 11px Verdana;
+}
+
+.BlueCapsule h3
+{
+	font: 12px Verdana;
+	font-weight: normal;
+	color: #3888B1;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+.BlueCapsule p
+{
+	font: 10px Verdana;
+	padding:10px;
+	color: #231F20;
+	font-weight: normal;
+}
+
+
+/* =========================================================================================== */
+/* 	 	                           Onglet  					       */	
+/* =========================================================================================== */
+
+.BlueTableau
+{
+	border-collapse:collapse;
+	
+}
+
+.BlueTableau td
+{
+	border-collapse:collapse;
+	border-color:#dde2e5;
+	border-style:solid;
+	border-width:1px;
+	color: #231F20;
+	font: 10px Verdana;
+	padding-left:7px;
+	padding-right:7px;
+	
+}
+
+.BlueTableau tr.TopHeader td
+{
+	border-color:#FFFFFF;
+	margin:0px;
+	padding:0px;
+}
+
+.BlueTableau tr.TopHeader td a			/*  HDBG  Haut,Droite,Bas,Gauche = Bordor color */
+{
+	line-height:20px;	
+	letter-spacing:1px; 
+	display:block;
+	text-decoration:none;
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #c9cfd1 #c9cfd1 #475e59 #c9cfd1; 
+	background-color:#e8ebed;
+	font-weight: normal;
+	color: #194157;
+	height: 21px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+.BlueTableau tr.TopHeader td a:hover
+{
+	line-height:20px;	
+	letter-spacing:1px; 
+	display:block;
+	text-decoration:none;
+	border-width: 1px 1px 1px 1px;border-style: solid;border-color: #475e59 #475e59 #475e59 #475e59; 
+	background-color: #84ac98;
+	font-weight: bold;
+	color: #ffffff;
+	height: 21px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+.BlueTableau tr.TopHeader td a.Selected
+{
+	line-height:20px;
+	letter-spacing:1px; 	
+	display:block;
+	text-decoration:none;
+	border-width: 2px 1px 1px 1px;border-style: solid;border-color: #475e59 #475e59 #ffffff #475e59; 
+	background-color: #ffffff;
+	font-weight:bold;
+	color: #38534c; 
+	height: 21px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+.BlueTableau tr.TopHeader td a.Selected:hover
+{
+}
+
+
+/* =========================================================================================== */
+/* 	 	                           Grille  					       */	
+/* =========================================================================================== */
+
+.BlueTableau tr.Header td
+{
+	background-color: #f2f3f4;
+	font-weight:bold;
+	color: #231F20;
+	height: 20px;
+}
+
+.BlueTableau tr
+{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.BlueTableau td.Odd
+{
+	background-color: #f8f8f8;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.BlueTableau td.Even
+{
+	background-color: #ffffff;	
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.BlueTableau td.Neutral
+{
+	background-color: white;	
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Blanc
+{
+	background-color: #FFFFFF;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Vert
+{
+	background-color: #edf9ec;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Jaune
+{
+	background-color: #fbfae0;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Bleu
+{
+	background-color: #e4eefc;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Rose
+{
+	background-color: #fbe7ec;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.BlueTableau td.Mauve
+{
+	background-color: #e4e1fd;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.BlueTableau a
+{
+	color: #312973;
+}
+
+/* =========================================================================================== */
+/* 	 	                           SAISIE TEXTE					       */	
+/* =========================================================================================== */
+
+
+select
+{
+	font: 10px Verdana;
+}
+
+
+input
+{
+	font: 10px Verdana;
+}
+
+
+/* =========================================================================================== */
+/* 	 	                           Communique					       */	
+/* =========================================================================================== */
+
+.blocCommunique, .blocPolitique {
+  padding: 13px 22px;
+}
+
+.blocCommunique:nth-child(even) {
+  background: #f5f4f4;
+}
+
+.blocCommunique h3, .blocPolitique h3 {
+  text-transform: uppercase;
+  font-family: Raleway, arial;
+  font-weight: 700;
+  font-size: 13px;
+  color: #4b4b4b;
+  margin-bottom: 1px;
+}
+
+.blocCommunique .date {
+  font-size: 13px;
+  color: #979797;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.blocCommunique .description, .blocPolitique .description {
+  font-size: 11px;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.blocCommunique .readMore, .blocPolitique .readMore {
+  text-align: right;
+}
+
+.blocCommunique .readMore a, .blocPolitique .readMore a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #029099;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.blocCommunique .readMore a:hover, .blocPolitique .readMore a:hover {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+
+/* =========================================================================================== */
+/* 	 	                           Bouton					       */	
+/* =========================================================================================== */
+
+
+input.BlueBlueButton
+{
+	font: 10px Verdana;
+	margin:0px;
+	padding: 2px 4px 2px 4px; 
+	border-style:none;
+	border-width:0px;
+	background-image: url('../images/Bouton_StdCentre.gif');
+	background-repeat: repeat-x;
+	color: #2e4454;
+	height:20px;
+}
+
+
+/* =========================================================================================== */
+/* 	 	                           Page connexion				       */	
+/* =========================================================================================== */
+
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+  clear: both;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.logbody	/* Arrier plan de la page de connexion */				
+{
+   margin:0px;
+   background: linear-gradient(107deg, #eaeaea 0%, #f3f3f3 16%, #e8e8e8 16%, #dfdfdf 100%); 
+   background-color: #e8e8e8;
+}	
+
+.Logincontainer {
+  font-family: Arial;
+  color: #2b2b2b;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+
+.loginbanner {				/* Bande avec Photos et logo clients */
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 300px;
+  overflow: hidden; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7); 
+  background-color: #a8b5b9;
+  background: -webkit-radial-gradient(center,circle,#eeeeee ,#a8b5b9);
+  background: -ms-radial-gradient(center, #eeeeee,#a8b5b9);           /* IE10+ */
+/*IE8  visibility: hidden; IE8*/
+}
+
+  .loginbanner .loginleftImg {		/* Photos de gauche */
+    float: left;
+    max-width: 50%;
+    position: relative;
+    right: 41px;
+  }
+
+  .loginbanner .loginrightImg {		/* Photos de droite */
+    float: right;
+    max-width: 50%;
+    position: relative;
+    left: 25px;
+  }
+
+.loginheader {				/* position de connexion */
+  position: relative;
+  z-index: 2;
+  height: 220px;
+}
+
+.loginlogo {				/* Zone du nuage et Logo du client - deborde sur connexion ? */
+  width: 694px;
+  height: 401px;
+/*IE8  height: 200px; IE8*/
+/*IE8    padding-top: 5px; IE8*/
+/*IE8    padding-left: 340px; IE8*/
+  background-image: url(../images/Login_Nuage.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center -50px;
+}
+
+.loginlogo h1 {				/* Zone du nuage et Logo du client */
+  width: 694px;
+  height: 225px;
+  position: relative;
+}
+
+.loginlogo img {			/* Logo du client */
+  max-width: 350px;
+  max-height: 160px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.loginmain {				/* Zone qui inclu connexion,politique,communiqués, propulsé par, paiement */
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  display: block;
+  width: 950px;
+  text-align:center;
+}
+
+.loginconnexionsimple, .loginconnexion, .logincommuniques, .loginpolitiques {
+/*IE8  border: 1px solid #969595; IE8*/
+  text-align:left;
+  width: 450px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  background-color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.loginconnexionsimple  {
+  float: center; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginconnexion {
+  float: left;
+}
+
+.loginpolitiques {
+  float: left;
+}
+
+.logincommuniques {
+  float: right;
+}
+
+
+.loginsectionTitle {				/* Zone pour chaque panneau de entete de boite : connexion,politique,communiqués */
+  background-image: url(../images/Login_CoinDroit.png); 
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 0 20px;
+  height: 30px;
+  box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.3);  
+}
+
+.loginsectionTitle h2 {				/* texte pour chaque entete de boite : connexion,politique,communiqués */
+  text-align:left;
+  padding-top:6px; 	
+  font: 14px Verdana;
+  font-weight:bold;
+  color: #fff;
+}
+
+
+.LienNoirGrandLogin { text-decoration: underline; font-family: Verdana; font-size: 12px; font-weight: normal; color: #000000}     /* ===== Lien ======= */
+.LienNoirGrandLogin:hover { color: #000000}
+
+.LienNoirLogin { text-decoration: underline; font-family: Verdana; font-size: 11px; font-weight: normal; color: #000000}     /* ===== Lien ======= */
+.LienNoirLogin:hover { color: #000000}
+
+.LienRougeLogin { text-decoration: underline; font-family: Verdana; font-size: 11px; font-weight: normal; color: #d1212e}        /* ===== Lien ======= */
+.LienRougeLogin:hover { color: #d1212e}
+
+
+.loginImagePropulsePar {				/* Propulse par */
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.loginconnexion .loginsectionTitle {			/* Entete du panneau connexion */
+  background-color: #84ac98;
+}
+
+.loginconnexionsimple .loginsectionTitle {	       /* Entete du panneau connexion */
+  background-color: #84ac98;
+}
+
+.logincommuniques .loginsectionTitle {			/* Entete du panneau communiqués */ 
+  background-color: #475e59;
+  text-transform: uppercase;
+}
+
+.loginpolitiques .loginsectionTitle  {			/* Entete du panneau politique */
+  background-color: #475e59;
+  text-transform: uppercase;
+}
+
+
+.loginsectionContent {				/* Zone pour le contenu de connexion */
+  padding: 24px 0px 5px 0px;
+}
+
+.loginLabel {				        /* Zone pour les label de connexion */
+  font: 12px Verdana; color:#544c4c;
+  padding-left:0px;
+  margin-right:10px;
+  padding-top:5px;
+  width: 120px;
+}
+.loginImageUsager {				/* Zone pour pictogramme Code d'usager */
+  background-image: url('../images/Picto_Usager.png');  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  width: 20px;
+  height: 20px;
+}
+.loginImageUsagerAide {				/* Zone pour pictogramme Code d'usager avec ? pour l'aide */
+  background-image: url('../images/Picto_UsagerAide.png');  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  width: 20px;
+  height: 20px;
+}
+.loginImageMotDePasse {				/* Zone pour pictogramme mot de passe */
+  background-image: url('../images/Picto_MotPasse.png');  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  width: 20px;
+  height: 20px;
+}
+
+.loginpoweredBy {				/* Zone pour le texte de propulsé par */
+}
+
+.loginpoweredBy img {				/* Zone pour l'image de propulsé par */
+  max-width: 2px;
+  max-height: 2px;
+}
+
+.loginpaymentMethod {				/* Zone pour le paiement : inclu les 3 boites */
+  text-align: center;
+  font-size: 13px;
+  padding-top: 600px;
+}
+
+.loginpaymentMethod p {				/* Zone pour le paiement sans le logo visa */	
+  margin-bottom: 1em;
+}
+
+.loginfooter {					/* Zone pour le pied de page */
+  font-size: 12px;
+  text-align: center;
+  height: 20px;   /* 50 */
+}
+
+.loginfooter a {				/* Zone pour le lien COBA dans le pied de page */
+  color: #424141;
+}
+
+body.Login
+{
+}
+
+img
+{
+}
+
+
+
+

@@ -1,0 +1,23 @@
+function Bouton_MouseOver(Nom)
+{
+  document.getElementById(Nom + '4').src='Images/Bouton_StdGaucheHover.gif';
+  document.getElementById(Nom + '5').style.backgroundImage = 'url(Images/Bouton_StdCentreHover.gif)';
+  document.getElementById(Nom + '6').src='Images/Bouton_StdDroiteHover.gif';
+}
+												
+function Bouton_MouseOut(Nom)
+{
+  document.getElementById(Nom + '4').src='Images/Bouton_StdGauche.gif';
+  document.getElementById(Nom + '5').style.backgroundImage = 'url(Images/Bouton_StdCentre.gif)';
+  document.getElementById(Nom + '6').src='Images/Bouton_StdDroite.gif';
+}
+
+if(!Array.prototype.indexOf){
+    Array.prototype.indexOf=function(obj,start){
+        for(var i=(start||0),j=this.length;i<j;i++){
+            if(this[i]==obj){return i;}
+        }
+        return -1;
+    }
+}
+

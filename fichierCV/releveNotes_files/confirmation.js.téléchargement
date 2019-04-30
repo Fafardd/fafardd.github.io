@@ -1,0 +1,115 @@
+function LibConfirmation(laQuestion, fonctionJs) {
+
+	$("#dlgConfirmation-message").html(laQuestion);
+
+    if (LibWeb_Langue == 'FRA')
+    {
+       enteteOui = "Oui";
+       enteteNon = "Non"
+    }
+    else
+    {
+       enteteOui = "Yes";
+       enteteNon = "No"
+    }
+
+    $("#dlgConfirmation").dialog({
+        autoOpen: false,
+        resizable: false,
+        modal: true,
+        title: "Confirmation",
+        width: 400,
+        buttons: 
+            [{
+                id:"btnOui",
+                text: enteteOui,
+				tabIndex: -1,
+                click: function() {
+                    $(this).dialog("close");
+                    fonctionJs();
+                }
+            },
+            {
+                id:"btnNon",
+                text: enteteNon,
+				tabIndex: -1,
+                click: function() {
+                    $(this).dialog("close");
+                }
+            }]    
+    });
+
+	$("#dlgConfirmation").css("padding", "0px");
+	$("#dlgConfirmation").css("margin", "0px");
+	$("#dlgConfirmation").css("margin-bottom", "-8px");
+
+    $(".ui-dialog-titlebar").hide();
+    $("#dlgConfirmation").dialog("open");
+}
+
+function LibAfficherDlg(nomDialog, param) {
+
+	var dlg = $('#' + nomDialog);
+
+    if (LibWeb_Langue == 'FRA')
+    {
+       enteteOui = "Connecter";
+       enteteNon = "Annuler"
+    }
+    else
+    {
+       enteteOui = "Connect";
+       enteteNon = "Cancel"
+    }
+
+    dlg.dialog({
+        autoOpen: false,
+        resizable: false,
+        modal: true,
+        title: "Confirmation",
+        width: 400,
+        buttons: 
+            [{
+                id:"btnOui",
+                text: enteteOui,
+				tabIndex: -1,
+                click: function() {
+
+					var usager = $('#txtUsagerAutSel').val();
+					var pass = $('#txtPassAutSel').val();
+
+					var requete = new LibWeb_AjaxRequest(5);
+					if (requete)
+					{
+						var fermer = function(){ dlg.dialog("close");};
+
+                        var retour = function(texte){ eval(texte); fermer(); };
+						var erreur = function(texte){ alert(texte); fermer(); };
+						var timeout = function(){ fermer(); };
+
+						requete.Send('GET', 'libaccesaut.asp', 'Param=' + param + '&Usager=' + usager + '&MotDePasse=' + pass, retour, erreur, timeout);
+					}
+					else
+					{
+						alert('Erreur XMLHTTP');
+					}
+
+                }
+            },
+            {
+                id:"btnNon",
+                text: enteteNon,
+				tabIndex: -1,
+                click: function() {
+                    $(this).dialog("close");
+                }
+            }]    
+    });
+
+	dlg.css("padding", "0px");
+	dlg.css("margin", "0px");
+	dlg.css("margin-bottom", "-8px");
+
+    $(".ui-dialog-titlebar").hide();
+    dlg.dialog("open");
+}
