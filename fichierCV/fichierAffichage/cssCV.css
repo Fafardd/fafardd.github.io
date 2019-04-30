@@ -3,14 +3,14 @@
 }
 
 #monImage{
-    width: 15%;
+    width: 250px;
 }
 
 body{
     background-color: #E5E7E7!important;
     margin-right: 10%!important;
     margin-left: 10%!important;
-    margin-top: 3%!important;
+    margin-top: 2%!important;
 }
 
 header{
@@ -19,7 +19,7 @@ header{
     display: inline-flex!important;
 }
 
-ul{
+.listeInfos{
     list-style-type:none;
     margin-top:1rem!important;
     text-align: end;
@@ -28,6 +28,7 @@ ul{
 #mesInfos{
     margin-left: auto;
     margin-right: 0;
+    margin-top: auto;
 }
 
 #toutContenu{
@@ -35,17 +36,44 @@ ul{
 }
 
 .lesTitres{
-    width:40%;
+    width:35%;
     color:#79B0BA;
 }
 
 .lesCategories{
     display:inline-flex;
     width:100%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
+    padding-bottom: 1%;
+    /*border-bottom: 1px solid #7C90B6;*/
 }
 
 .lesTextes{
-    width:60%;
+    width:65%;
     margin-left: 3%;
+    text-align: justify;
+}
+
+.experiences{
+    margin-top: 3.5%;
+    padding-top: 1%;
+    border-top: 1px solid #5F6D72;
+}
+
+header, .conCat{
+    width:100%
+}
+
+.skills{
+    display:inline-flex;
+    width:100%;
+    margin-bottom: 1%;
+}
+
+.colonnes{
+    width:33%
+}
+
+h4{
+   color: #5F6D72
 }
