@@ -1,0 +1,51 @@
+#maPhoto{
+    width: 100%;
+}
+
+#monImage{
+    width: 15%;
+}
+
+body{
+    background-color: #E5E7E7!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+    margin-top: 3%!important;
+}
+
+header{
+    padding-bottom: 1%;
+    border-bottom: 3px solid #79B0BA;
+    display: inline-flex!important;
+}
+
+ul{
+    list-style-type:none;
+    margin-top:1rem!important;
+    text-align: end;
+}
+
+#mesInfos{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#toutContenu{
+    margin:3%
+}
+
+.lesTitres{
+    width:40%;
+    color:#79B0BA;
+}
+
+.lesCategories{
+    display:inline-flex;
+    width:100%;
+    margin-bottom: 5%;
+}
+
+.lesTextes{
+    width:60%;
+    margin-left: 3%;
+}
